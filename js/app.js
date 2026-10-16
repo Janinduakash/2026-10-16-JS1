@@ -65,15 +65,30 @@
 //--------Logical Operators-----------------
 //          &&   |  ||  |    !
 
-if(false || false){
-    console.log("At least one is true");
-}else{
-    console.log("Both are not true");
-}
+// if(false || false){
+//     console.log("At least one is true");
+// }else{
+//     console.log("Both are not true");
+// }
 
 
-if(!false || false){
-    console.log("At least one is true");
+// if(!false || false){
+//     console.log("At least one is true");
+// }else{
+//     console.log("one is not true");
+// }
+
+
+//--------Conditional Statements-----------------
+// [if else]
+
+let x = 20;
+let y = 10;
+
+if(x > y){
+    console.log("x is greater than y");
+}else if(x < y){
+    console.log("x is less than y");
 }else{
-    console.log("one is not true");
+    console.log("x is equal to y");
 }
