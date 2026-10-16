@@ -82,13 +82,30 @@
 //--------Conditional Statements-----------------
 // [if else]
 
-let x = 20;
-let y = 10;
+// let x = 20;
+// let y = 10;
 
-if(x > y){
-    console.log("x is greater than y");
-}else if(x < y){
-    console.log("x is less than y");
+// if(x > y){
+//     console.log("x is greater than y");
+// }else if(x < y){
+//     console.log("x is less than y");
+// }else{
+//     console.log("x is equal to y");
+// }
+
+// ----- conditional statements for exercice -----
+let marks = -1;
+
+if(marks >= 75){
+    console.log("A");
+}else if(marks >= 65){
+    console.log("B");
+}else if(marks >= 55){
+    console.log("C");
+}else if(marks >= 35){
+    console.log("S");
+}else if(marks < 35 && marks >= 0){
+    console.log("F");
 }else{
-    console.log("x is equal to y");
+    console.log("Absent the student");
 }
