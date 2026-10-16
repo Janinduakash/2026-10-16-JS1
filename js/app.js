@@ -113,14 +113,18 @@
 
 // ----- conditional statements for exercice -----
 
-let unit = 10;
-let bill;
+// let unit = 10;
+// let bill;
 
-if(unit<= 50){
-    bill = unit * 10;
-}else if(unit <= 100){
-    bill = (50 * 10) + ((unit - 50) * 15);
-}else if(unit > 100){
-    bill = (50 * 10) + (50 * 15) + ((unit - 100) * 20); 
-}
-console.log("The total bill is: "+bill);
+// if(unit<= 50){
+//     bill = unit * 10;
+// }else if(unit <= 100){
+//     bill = (50 * 10) + ((unit - 50) * 15);
+// }else if(unit > 100){
+//     bill = (50 * 10) + (50 * 15) + ((unit - 100) * 20); 
+// }
+// console.log("The total bill is: "+bill);
+
+
+//--------Switch Statement-----------------
+
