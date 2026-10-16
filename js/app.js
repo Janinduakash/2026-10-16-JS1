@@ -1,33 +1,41 @@
-console.log('Hello, World!');
-//alert('Hello, World!');
+// console.log('Hello, World!');
+// //alert('Hello, World!');
 
-console.log("iCET is the best")
-console.log("one.")
+// console.log("iCET is the best")
+// console.log("one.")
 
-//--Variables--
-
-
-let age = 20;
-console.log(typeof age);
-
-let isStudent = true;
-console.log( isStudent);
-
-// //array
-let customer = [age, name, isStudent];
-console.log(typeof customer);
-
-// //object
-let customer1 = {"name": "Janidu", "age": 20, "isStudent": true};
-console.log(typeof customer1);
+// //--Variables--
 
 
-//case sensitive
-let name = "Janidu";
-let NAME = "Akash";
-let names = "Janidu";
+// let age = 20;
+// console.log(typeof age);
 
-console.log(name);
+// let isStudent = true;
+// console.log( isStudent);
 
-console.log(NAME);
-console.log(names);
+// // //array
+// let customer = [age, name, isStudent];
+// console.log(typeof customer);
+
+// // //object
+// let customer1 = {"name": "Janidu", "age": 20, "isStudent": true};
+// console.log(typeof customer1);
+
+
+// //case sensitive
+// let name = "Janidu";
+// let NAME = "Akash";
+// let names = "Janidu";
+
+// console.log(name);
+// console.log(NAME);
+// console.log(names);
+
+
+//--------------Arithmetic Operators-----------------
+// + | - | * | / | % | ++ | --
+
+let x = 10;
+let y = 5;
+let result = x + y;
+console.log(result);
