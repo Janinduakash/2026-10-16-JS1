@@ -35,7 +35,27 @@
 //--------------Arithmetic Operators-----------------
 // + | - | * | / | % | ++ | --
 
-let x = "10";
-let y = "5";
-let result = x / y;
-console.log(result);
+// let x = "10";
+// let y = "5";
+// let result = x / y;
+// console.log(result);
+
+
+//--------Comparison Operators-----------------
+// == | === | != | !== | > | < | >= | <=
+
+let x = 10;
+let y = 10;
+
+console.log(x == y); //true
+console.log(x === y); //true
+
+console.log(x != y); //false
+console.log(x !== y); //false
+
+console.log(x > y); //false
+console.log(x < y); //false
+
+console.log(x >= y); //true
+console.log(x <= y); //true
+
