@@ -94,18 +94,33 @@
 // }
 
 // ----- conditional statements for exercice -----
-let marks = -1;
+// let marks = -1;
 
-if(marks >= 75){
-    console.log("A");
-}else if(marks >= 65){
-    console.log("B");
-}else if(marks >= 55){
-    console.log("C");
-}else if(marks >= 35){
-    console.log("S");
-}else if(marks < 35 && marks >= 0){
-    console.log("F");
-}else{
-    console.log("Absent the student");
+// if(marks >= 75){
+//     console.log("A");
+// }else if(marks >= 65){
+//     console.log("B");
+// }else if(marks >= 55){
+//     console.log("C");
+// }else if(marks >= 35){
+//     console.log("S");
+// }else if(marks < 35 && marks >= 0){
+//     console.log("F");
+// }else{
+//     console.log("Absent the student");
+// }
+
+
+// ----- conditional statements for exercice -----
+
+let unit = 10;
+let bill;
+
+if(unit<= 50){
+    bill = unit * 10;
+}else if(unit <= 100){
+    bill = (50 * 10) + ((unit - 50) * 15);
+}else if(unit > 100){
+    bill = (50 * 10) + (50 * 15) + ((unit - 100) * 20); 
 }
+console.log("The total bill is: "+bill);
